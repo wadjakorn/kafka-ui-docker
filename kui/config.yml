@@ -1,0 +1,18 @@
+auth:
+  type: DISABLED
+kafka:
+  clusters:
+  - bootstrapServers: 10.198.107.58:9093
+    name: alpha
+    properties: {}
+    readOnly: false
+  - bootstrapServers: 10.198.107.58:9092
+    name: dev
+    properties: {}
+    readOnly: false
+  - bootstrapServers: 10.198.107.58:9094
+    name: preprod
+    properties: {}
+    readOnly: false
+rbac:
+  roles: []
